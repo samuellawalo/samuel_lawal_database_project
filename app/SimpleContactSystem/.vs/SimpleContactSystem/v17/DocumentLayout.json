@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{95C552D3-09CB-4DF5-8203-174E5D781972}|CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj|z:\\documents\\github\\samuel_lawal_database_project\\app\\simplecontactsystem\\collegeteachingassignmentmdi\\frmmdiparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95C552D3-09CB-4DF5-8203-174E5D781972}|CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj|solutionrelative:collegeteachingassignmentmdi\\frmmdiparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95C552D3-09CB-4DF5-8203-174E5D781972}|CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj|z:\\documents\\github\\samuel_lawal_database_project\\app\\simplecontactsystem\\collegeteachingassignmentmdi\\scripts\\simplecontactsystem-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{95C552D3-09CB-4DF5-8203-174E5D781972}|CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj|solutionrelative:collegeteachingassignmentmdi\\scripts\\simplecontactsystem-script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
@@ -51,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmMDIParent.cs",
+              "DocumentMoniker": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\frmMDIParent.cs",
+              "RelativeDocumentMoniker": "CollegeTeachingAssignmentMDI\\frmMDIParent.cs",
+              "ToolTip": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\frmMDIParent.cs",
+              "RelativeToolTip": "CollegeTeachingAssignmentMDI\\frmMDIParent.cs",
+              "ViewState": "AQIAAHUAAAAAAQAAAAAAwJIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T01:04:07.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SimpleContactSystem-Script.sql ",
               "DocumentMoniker": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\Scripts\\SimpleContactSystem-Script.sql",
               "RelativeDocumentMoniker": "CollegeTeachingAssignmentMDI\\Scripts\\SimpleContactSystem-Script.sql",
@@ -62,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmMDIParent.cs [Design]",
               "DocumentMoniker": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\frmMDIParent.cs",
               "RelativeDocumentMoniker": "CollegeTeachingAssignmentMDI\\frmMDIParent.cs",
@@ -74,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\frmLogin.cs",
               "RelativeDocumentMoniker": "CollegeTeachingAssignmentMDI\\frmLogin.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmLogin.cs [Design]",
               "DocumentMoniker": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\frmLogin.cs",
               "RelativeDocumentMoniker": "CollegeTeachingAssignmentMDI\\frmLogin.cs",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.config",
               "DocumentMoniker": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\App.config",
               "RelativeDocumentMoniker": "CollegeTeachingAssignmentMDI\\App.config",
@@ -112,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Splash.cs",
               "DocumentMoniker": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\Splash.cs",
               "RelativeDocumentMoniker": "CollegeTeachingAssignmentMDI\\Splash.cs",
@@ -125,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Splash.cs [Design]",
               "DocumentMoniker": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\Splash.cs",
               "RelativeDocumentMoniker": "CollegeTeachingAssignmentMDI\\Splash.cs",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Validator.cs",
               "DocumentMoniker": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\Validator.cs",
               "RelativeDocumentMoniker": "CollegeTeachingAssignmentMDI\\Validator.cs",
