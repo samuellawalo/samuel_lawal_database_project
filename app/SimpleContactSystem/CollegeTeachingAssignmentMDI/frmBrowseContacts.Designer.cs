@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             cmbGroups = new ComboBox();
-            btnBrowseCourse = new Button();
+            btnBrowseContacts = new Button();
             dgvContacts = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dgvContacts).BeginInit();
             SuspendLayout();
@@ -42,15 +42,15 @@
             cmbGroups.Size = new Size(334, 40);
             cmbGroups.TabIndex = 0;
             // 
-            // btnBrowseCourse
+            // btnBrowseContacts
             // 
-            btnBrowseCourse.Location = new Point(471, 38);
-            btnBrowseCourse.Name = "btnBrowseCourse";
-            btnBrowseCourse.Size = new Size(214, 46);
-            btnBrowseCourse.TabIndex = 1;
-            btnBrowseCourse.Text = "Display Courses";
-            btnBrowseCourse.UseVisualStyleBackColor = true;
-            btnBrowseCourse.Click += btnBrowseContact_Click;
+            btnBrowseContacts.Location = new Point(471, 38);
+            btnBrowseContacts.Name = "btnBrowseContacts";
+            btnBrowseContacts.Size = new Size(214, 46);
+            btnBrowseContacts.TabIndex = 1;
+            btnBrowseContacts.Text = "Display Contacts";
+            btnBrowseContacts.UseVisualStyleBackColor = true;
+            btnBrowseContacts.Click += btnBrowseContact_Click;
             // 
             // dgvContacts
             // 
@@ -58,20 +58,20 @@
             dgvContacts.Location = new Point(28, 115);
             dgvContacts.Name = "dgvContacts";
             dgvContacts.RowHeadersWidth = 82;
-            dgvContacts.Size = new Size(1066, 239);
+            dgvContacts.Size = new Size(1322, 495);
             dgvContacts.TabIndex = 2;
             // 
             // frmBrowseContacts
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1129, 450);
+            ClientSize = new Size(1407, 693);
             Controls.Add(dgvContacts);
-            Controls.Add(btnBrowseCourse);
+            Controls.Add(btnBrowseContacts);
             Controls.Add(cmbGroups);
             Name = "frmBrowseContacts";
-            Tag = "browseCourses";
-            Text = "frmBrowseCourses";
+            Tag = "browseContacts";
+            Text = "frmBrowseContacts";
             Load += frmBrowseContacts_Load;
             ((System.ComponentModel.ISupportInitialize)dgvContacts).EndInit();
             ResumeLayout(false);
@@ -80,7 +80,7 @@
         #endregion
 
         private ComboBox cmbGroups;
-        private Button btnBrowseCourse;
+        private Button btnBrowseContacts;
         private DataGridView dgvContacts;
     }
 }

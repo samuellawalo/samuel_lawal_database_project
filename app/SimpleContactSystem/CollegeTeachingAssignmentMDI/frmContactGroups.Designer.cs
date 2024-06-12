@@ -252,7 +252,7 @@
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1206, 1241);
+            ClientSize = new Size(1206, 970);
             Controls.Add(grpCourses);
             Name = "frmContactGroups";
             Text = "frmContactGroups";

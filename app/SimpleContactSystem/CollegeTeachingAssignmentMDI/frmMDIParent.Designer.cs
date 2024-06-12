@@ -70,7 +70,7 @@
             menuStrip.MdiWindowListItem = windowsMenu;
             menuStrip.Name = "menuStrip";
             menuStrip.Padding = new Padding(13, 5, 0, 5);
-            menuStrip.Size = new Size(1369, 46);
+            menuStrip.Size = new Size(1963, 46);
             menuStrip.TabIndex = 0;
             menuStrip.Text = "MenuStrip";
             // 
@@ -249,10 +249,10 @@
             // 
             statusStrip.ImageScalingSize = new Size(32, 32);
             statusStrip.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel });
-            statusStrip.Location = new Point(0, 1073);
+            statusStrip.Location = new Point(0, 1270);
             statusStrip.Name = "statusStrip";
             statusStrip.Padding = new Padding(3, 0, 30, 0);
-            statusStrip.Size = new Size(1369, 42);
+            statusStrip.Size = new Size(1963, 42);
             statusStrip.TabIndex = 2;
             statusStrip.Text = "StatusStrip";
             // 
@@ -266,13 +266,14 @@
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1369, 1115);
+            ClientSize = new Size(1963, 1312);
             Controls.Add(statusStrip);
             Controls.Add(menuStrip);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip;
             Margin = new Padding(6);
             Name = "frmMDIParent";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "frmMDIParent";
             Load += frmMDIParent_Load;
             menuStrip.ResumeLayout(false);

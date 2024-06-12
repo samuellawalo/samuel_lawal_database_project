@@ -52,12 +52,14 @@
             txtContactName = new TextBox();
             label2 = new Label();
             errorProvider = new ErrorProvider(components);
+            label7 = new Label();
             grpCourses.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)errorProvider).BeginInit();
             SuspendLayout();
             // 
             // grpCourses
             // 
+            grpCourses.Controls.Add(label7);
             grpCourses.Controls.Add(clbGroups);
             grpCourses.Controls.Add(txtDescription);
             grpCourses.Controls.Add(label6);
@@ -80,7 +82,7 @@
             grpCourses.Controls.Add(txtContactName);
             grpCourses.Controls.Add(label2);
             grpCourses.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            grpCourses.Location = new Point(72, 126);
+            grpCourses.Location = new Point(58, 47);
             grpCourses.Margin = new Padding(6, 7, 6, 7);
             grpCourses.Name = "grpCourses";
             grpCourses.Padding = new Padding(6, 7, 6, 7);
@@ -317,11 +319,20 @@
             // 
             errorProvider.ContainerControl = this;
             // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(950, 118);
+            label7.Name = "label7";
+            label7.Size = new Size(204, 31);
+            label7.TabIndex = 34;
+            label7.Text = "Contact Group";
+            // 
             // frmContactDetails
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1413, 1237);
+            ClientSize = new Size(1413, 1087);
             Controls.Add(grpCourses);
             Margin = new Padding(6, 7, 6, 7);
             Name = "frmContactDetails";
@@ -359,5 +370,6 @@
         private TextBox txtDescription;
         private Label label6;
         private CheckedListBox clbGroups;
+        private Label label7;
     }
 }

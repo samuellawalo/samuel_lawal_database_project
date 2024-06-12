@@ -87,14 +87,6 @@ namespace SimpleContactSystem
                 childForm.MdiParent = this;
                 childForm.Show();
             }
-
-
-
-
-            //Form childForm = new Form();
-            //childForm.MdiParent = this;
-            //childForm.Text = "Window " + childFormNumber++;
-            //childForm.Show();
         }
 
 
