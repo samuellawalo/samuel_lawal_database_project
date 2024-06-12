@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="SimpleContactSystem.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="SimpleContactSystem.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -107,13 +107,13 @@
       <dsig:DigestValue>WYSzWk9CzGeMYCp5ODuDJdnPKnvSo3KsMgAcC1Cc3h0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SimpleContactSystem.dll" size="79872">
+  <file name="SimpleContactSystem.dll" size="57856">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>7WCsBbfwn/Ai1tYgNy5S19rBe4miQ4FteA42nTK56TE=</dsig:DigestValue>
+      <dsig:DigestValue>P02vpEtnPT1jkTlWPoDyHb0jpoOPUe+5NDG10YUD9WA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SimpleContactSystem.dll.config" size="374">
@@ -125,13 +125,13 @@
       <dsig:DigestValue>FAq3VvL8tyG2WJ1IQkfAntUJdFp35n/oQPhkorT2IwE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SimpleContactSystem.exe" size="142848">
+  <file name="SimpleContactSystem.exe" size="142336">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>EUaNpS/ugMm78nOZwHy2y3Yy7pXLAtDPN7O8tu8pRN8=</dsig:DigestValue>
+      <dsig:DigestValue>7y9H+qOHDCns+Dj6kBbvduDaJPZL5a2kouwgKWnENGQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SimpleContactSystem.runtimeconfig.json" size="458">
