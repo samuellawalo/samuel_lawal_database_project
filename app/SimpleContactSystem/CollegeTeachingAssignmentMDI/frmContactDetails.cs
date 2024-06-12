@@ -153,7 +153,6 @@ namespace SimpleContactSystem
                 btnCancel.Enabled = false;
                 btnDelete.Enabled = true;
                 btnSave.Text = "Edit";
-                clbGroups.ClearSelected();
                 InputsReadOnly(true);
                 NavigationButtonManagement();
             }
@@ -163,7 +162,6 @@ namespace SimpleContactSystem
                 btnCancel.Enabled = true;
                 btnDelete.Enabled = false;
                 btnSave.Text = "Save";
-                clbGroups.Enabled = false;
                 InputsReadOnly(false);
 
                 //clearing the form when on add 
