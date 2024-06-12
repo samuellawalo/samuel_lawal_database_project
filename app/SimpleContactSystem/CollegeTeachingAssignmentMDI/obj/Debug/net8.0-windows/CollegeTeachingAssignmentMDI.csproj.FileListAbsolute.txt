@@ -1,0 +1,102 @@
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.exe
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.deps.json
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.runtimeconfig.json
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.dll
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.pdb
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmMDIParent.resources
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.csproj.GenerateResource.cache
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.AssemblyInfoInputs.cache
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.AssemblyInfo.cs
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.csproj.CoreCompileInputs.cache
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.sourcelink.json
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.dll
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\refint\CollegeTeachingAssignmentMDI.dll
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.pdb
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.genruntimeconfig.cache
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\ref\CollegeTeachingAssignmentMDI.dll
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmCourses.resources
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmInstructors.resources
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.dll.config
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.csproj.AssemblyReference.cache
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.csproj.CopyComplete
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.Properties.Resources.resources
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.Splash.resources
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmLogin.resources
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmTeachingAssignment.resources
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmBrowseInstructors.resources
+C:\src\DataPtogramming\Demos\db-prog-mdi-demo-starter-ibitowa\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmBrowseCourses.resources
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.exe
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.dll.config
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.deps.json
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.runtimeconfig.json
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.dll
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.pdb
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.csproj.AssemblyReference.cache
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmBrowseCourses.resources
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmBrowseInstructors.resources
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmCourses.resources
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmInstructors.resources
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmLogin.resources
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmMDIParent.resources
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmTeachingAssignment.resources
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.Properties.Resources.resources
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.Splash.resources
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.csproj.GenerateResource.cache
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.AssemblyInfoInputs.cache
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.AssemblyInfo.cs
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.sourcelink.json
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeT.CCE4D869.Up2Date
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.dll
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\refint\CollegeTeachingAssignmentMDI.dll
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.pdb
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.genruntimeconfig.cache
+\\Mac\Home\Downloads\db-prog-mdi-demo-starter-ibitowa 2\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\ref\CollegeTeachingAssignmentMDI.dll
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.exe
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.dll.config
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.deps.json
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.runtimeconfig.json
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.dll
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.pdb
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.csproj.AssemblyReference.cache
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmBrowseCourses.resources
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmBrowseInstructors.resources
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmCourses.resources
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmInstructors.resources
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmLogin.resources
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmMDIParent.resources
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.frmTeachingAssignment.resources
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.Properties.Resources.resources
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.Splash.resources
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.csproj.GenerateResource.cache
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.AssemblyInfoInputs.cache
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.AssemblyInfo.cs
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.csproj.CoreCompileInputs.cache
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.sourcelink.json
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeT.CCE4D869.Up2Date
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.dll
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\refint\CollegeTeachingAssignmentMDI.dll
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.pdb
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\CollegeTeachingAssignmentMDI.genruntimeconfig.cache
+Z:\Documents\GitHub\db-prog-mdi-demo-starter-samuellawalo\CollegeTeachingAssignmentMDI\CollegeTeachingAssignmentMDI\obj\Debug\net8.0-windows\ref\CollegeTeachingAssignmentMDI.dll
