@@ -55,16 +55,10 @@
             searchToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator8 = new ToolStripSeparator();
             aboutToolStripMenuItem = new ToolStripMenuItem();
-            toolStrip = new ToolStrip();
-            toolStripSeparator1 = new ToolStripSeparator();
-            toolStripSeparator2 = new ToolStripSeparator();
-            tsbInstructors = new ToolStripButton();
-            tsbCourses = new ToolStripButton();
             statusStrip = new StatusStrip();
             toolStripStatusLabel = new ToolStripStatusLabel();
             toolTip = new ToolTip(components);
             menuStrip.SuspendLayout();
-            toolStrip.SuspendLayout();
             statusStrip.SuspendLayout();
             SuspendLayout();
             // 
@@ -76,7 +70,7 @@
             menuStrip.MdiWindowListItem = windowsMenu;
             menuStrip.Name = "menuStrip";
             menuStrip.Padding = new Padding(13, 5, 0, 5);
-            menuStrip.Size = new Size(1369, 48);
+            menuStrip.Size = new Size(1369, 46);
             menuStrip.TabIndex = 0;
             menuStrip.Text = "MenuStrip";
             // 
@@ -85,7 +79,7 @@
             fileMenu.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator3, toolStripSeparator4, toolStripSeparator5, exitToolStripMenuItem });
             fileMenu.ImageTransparentColor = SystemColors.ActiveBorder;
             fileMenu.Name = "fileMenu";
-            fileMenu.Size = new Size(71, 38);
+            fileMenu.Size = new Size(71, 36);
             fileMenu.Text = "&File";
             // 
             // toolStripSeparator3
@@ -114,13 +108,13 @@
             // 
             maintencesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { instructorsToolStripMenuItem, coursesToolStripMenuItem, browseCoursesToolStripMenuItem });
             maintencesToolStripMenuItem.Name = "maintencesToolStripMenuItem";
-            maintencesToolStripMenuItem.Size = new Size(157, 38);
+            maintencesToolStripMenuItem.Size = new Size(157, 36);
             maintencesToolStripMenuItem.Text = "Maintences";
             // 
             // instructorsToolStripMenuItem
             // 
             instructorsToolStripMenuItem.Name = "instructorsToolStripMenuItem";
-            instructorsToolStripMenuItem.Size = new Size(359, 44);
+            instructorsToolStripMenuItem.Size = new Size(322, 44);
             instructorsToolStripMenuItem.Tag = "contactgroups";
             instructorsToolStripMenuItem.Text = "Groups";
             instructorsToolStripMenuItem.Click += ShowNewForm;
@@ -128,7 +122,7 @@
             // coursesToolStripMenuItem
             // 
             coursesToolStripMenuItem.Name = "coursesToolStripMenuItem";
-            coursesToolStripMenuItem.Size = new Size(359, 44);
+            coursesToolStripMenuItem.Size = new Size(322, 44);
             coursesToolStripMenuItem.Tag = "contacts";
             coursesToolStripMenuItem.Text = "Contacts";
             coursesToolStripMenuItem.Click += ShowNewForm;
@@ -136,7 +130,7 @@
             // browseCoursesToolStripMenuItem
             // 
             browseCoursesToolStripMenuItem.Name = "browseCoursesToolStripMenuItem";
-            browseCoursesToolStripMenuItem.Size = new Size(359, 44);
+            browseCoursesToolStripMenuItem.Size = new Size(322, 44);
             browseCoursesToolStripMenuItem.Tag = "browsecontacts";
             browseCoursesToolStripMenuItem.Text = "Browse Contacts";
             browseCoursesToolStripMenuItem.Click += ShowNewForm;
@@ -145,7 +139,7 @@
             // 
             viewMenu.DropDownItems.AddRange(new ToolStripItem[] { toolBarToolStripMenuItem, statusBarToolStripMenuItem });
             viewMenu.Name = "viewMenu";
-            viewMenu.Size = new Size(85, 38);
+            viewMenu.Size = new Size(85, 36);
             viewMenu.Text = "&View";
             // 
             // toolBarToolStripMenuItem
@@ -172,7 +166,7 @@
             // 
             windowsMenu.DropDownItems.AddRange(new ToolStripItem[] { cascadeToolStripMenuItem, tileVerticalToolStripMenuItem, tileHorizontalToolStripMenuItem, closeAllToolStripMenuItem, arrangeIconsToolStripMenuItem });
             windowsMenu.Name = "windowsMenu";
-            windowsMenu.Size = new Size(131, 38);
+            windowsMenu.Size = new Size(131, 36);
             windowsMenu.Text = "&Windows";
             // 
             // cascadeToolStripMenuItem
@@ -214,7 +208,7 @@
             // 
             helpMenu.DropDownItems.AddRange(new ToolStripItem[] { contentsToolStripMenuItem, indexToolStripMenuItem, searchToolStripMenuItem, toolStripSeparator8, aboutToolStripMenuItem });
             helpMenu.Name = "helpMenu";
-            helpMenu.Size = new Size(84, 38);
+            helpMenu.Size = new Size(84, 36);
             helpMenu.Text = "&Help";
             // 
             // contentsToolStripMenuItem
@@ -251,49 +245,6 @@
             aboutToolStripMenuItem.Size = new Size(335, 44);
             aboutToolStripMenuItem.Text = "&About ... ...";
             // 
-            // toolStrip
-            // 
-            toolStrip.ImageScalingSize = new Size(32, 32);
-            toolStrip.Items.AddRange(new ToolStripItem[] { toolStripSeparator1, toolStripSeparator2, tsbInstructors, tsbCourses });
-            toolStrip.Location = new Point(0, 48);
-            toolStrip.Name = "toolStrip";
-            toolStrip.Padding = new Padding(0, 0, 4, 0);
-            toolStrip.Size = new Size(1369, 42);
-            toolStrip.TabIndex = 1;
-            toolStrip.Text = "ToolStrip";
-            // 
-            // toolStripSeparator1
-            // 
-            toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(6, 42);
-            // 
-            // toolStripSeparator2
-            // 
-            toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(6, 42);
-            // 
-            // tsbInstructors
-            // 
-            tsbInstructors.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            tsbInstructors.Image = (Image)resources.GetObject("tsbInstructors.Image");
-            tsbInstructors.ImageTransparentColor = Color.Magenta;
-            tsbInstructors.Name = "tsbInstructors";
-            tsbInstructors.Size = new Size(46, 36);
-            tsbInstructors.Tag = "instructors";
-            tsbInstructors.Text = "Instuctors";
-            tsbInstructors.Click += ShowNewForm;
-            // 
-            // tsbCourses
-            // 
-            tsbCourses.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            tsbCourses.Image = (Image)resources.GetObject("tsbCourses.Image");
-            tsbCourses.ImageTransparentColor = Color.Magenta;
-            tsbCourses.Name = "tsbCourses";
-            tsbCourses.Size = new Size(46, 36);
-            tsbCourses.Tag = "courses";
-            tsbCourses.Text = "Course";
-            tsbCourses.Click += ShowNewForm;
-            // 
             // statusStrip
             // 
             statusStrip.ImageScalingSize = new Size(32, 32);
@@ -317,7 +268,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1369, 1115);
             Controls.Add(statusStrip);
-            Controls.Add(toolStrip);
             Controls.Add(menuStrip);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip;
@@ -327,8 +277,6 @@
             Load += frmMDIParent_Load;
             menuStrip.ResumeLayout(false);
             menuStrip.PerformLayout();
-            toolStrip.ResumeLayout(false);
-            toolStrip.PerformLayout();
             statusStrip.ResumeLayout(false);
             statusStrip.PerformLayout();
             ResumeLayout(false);
@@ -338,10 +286,7 @@
 
 
         private System.Windows.Forms.MenuStrip menuStrip;
-        private System.Windows.Forms.ToolStrip toolStrip;
         private System.Windows.Forms.StatusStrip statusStrip;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
@@ -367,8 +312,6 @@
         private ToolStripMenuItem maintencesToolStripMenuItem;
         private ToolStripMenuItem instructorsToolStripMenuItem;
         private ToolStripMenuItem coursesToolStripMenuItem;
-        private ToolStripButton tsbCourses;
-        private ToolStripButton tsbInstructors;
         private ToolStripMenuItem browseCoursesToolStripMenuItem;
     }
 }

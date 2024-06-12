@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GEvA6Lj+1fEKzEgMSlJnQKDoKrkQ/2pSYTA5pO41sdJaviUkb2hgyoT2GBpqnRKTwah8UGFcpt93sMvAKlMHPA==",
+  "dgSpecHash": "fdyzmWiLymBxLJWztVxsQqBfV0ZywOZTaImattY6ynCFLUAwDlGRHCbES08oaG9OjCJsx7Vy0XwXC55FmzctRw==",
   "success": true,
-  "projectFilePath": "Z:\\Documents\\GitHub\\db-prog-mdi-demo-starter-samuellawalo\\CollegeTeachingAssignmentMDI\\CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj",
+  "projectFilePath": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samuellawal\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\samuellawal\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

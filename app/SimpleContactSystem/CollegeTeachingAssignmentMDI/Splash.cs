@@ -19,7 +19,7 @@ namespace SimpleContactSystem
 
         private void Splash_Load(object sender, EventArgs e)
         {
-            label2.Text = Application.ProductName;
+           
             label3.Text = Application.ProductVersion;
             label4.Text = Application.CompanyName;
         }

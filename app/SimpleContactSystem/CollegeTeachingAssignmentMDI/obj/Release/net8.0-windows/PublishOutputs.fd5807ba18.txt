@@ -1,0 +1,12 @@
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\SimpleContactSystem.exe
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\SimpleContactSystem.dll
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\SimpleContactSystem.deps.json
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\SimpleContactSystem.runtimeconfig.json
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\SimpleContactSystem.dll.config
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\SimpleContactSystem.pdb
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\System.Data.SqlClient.dll
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\runtimes\win-arm64\native\sni.dll
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\runtimes\win-x64\native\sni.dll
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\runtimes\win-x86\native\sni.dll
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+Z:\Documents\GitHub\samuel_lawal_database_project\app\SimpleContactSystem\CollegeTeachingAssignmentMDI\bin\Release\net8.0-windows\app.publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

@@ -20,7 +20,7 @@ namespace SimpleContactSystem
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            this.Text = Application.ProductName + " - Login";
+            this.Text = "Simple Contact System"+ " - Login";
 
             txtUserName.Text = Environment.UserName;
 

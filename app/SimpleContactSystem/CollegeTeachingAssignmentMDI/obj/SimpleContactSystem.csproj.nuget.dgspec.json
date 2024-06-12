@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Documents\\GitHub\\db-prog-mdi-demo-starter-samuellawalo\\CollegeTeachingAssignmentMDI\\CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj": {}
+    "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj": {}
   },
   "projects": {
-    "Z:\\Documents\\GitHub\\db-prog-mdi-demo-starter-samuellawalo\\CollegeTeachingAssignmentMDI\\CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj": {
+    "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Documents\\GitHub\\db-prog-mdi-demo-starter-samuellawalo\\CollegeTeachingAssignmentMDI\\CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj",
+        "projectUniqueName": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj",
         "projectName": "SimpleContactSystem",
-        "projectPath": "Z:\\Documents\\GitHub\\db-prog-mdi-demo-starter-samuellawalo\\CollegeTeachingAssignmentMDI\\CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj",
+        "projectPath": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\SimpleContactSystem.csproj",
         "packagesPath": "C:\\Users\\samuellawal\\.nuget\\packages\\",
-        "outputPath": "Z:\\Documents\\GitHub\\db-prog-mdi-demo-starter-samuellawalo\\CollegeTeachingAssignmentMDI\\CollegeTeachingAssignmentMDI\\obj\\",
+        "outputPath": "Z:\\Documents\\GitHub\\samuel_lawal_database_project\\app\\SimpleContactSystem\\CollegeTeachingAssignmentMDI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
