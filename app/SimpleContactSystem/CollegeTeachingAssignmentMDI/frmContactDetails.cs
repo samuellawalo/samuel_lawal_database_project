@@ -121,10 +121,6 @@ namespace SimpleContactSystem
 
                 }
             }
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show($"" + ex.Message);
-            //}
 
             catch (Exception ex)
             {
@@ -157,6 +153,7 @@ namespace SimpleContactSystem
                 btnCancel.Enabled = false;
                 btnDelete.Enabled = true;
                 btnSave.Text = "Edit";
+                clbGroups.ClearSelected();
                 InputsReadOnly(true);
                 NavigationButtonManagement();
             }
@@ -166,6 +163,7 @@ namespace SimpleContactSystem
                 btnCancel.Enabled = true;
                 btnDelete.Enabled = false;
                 btnSave.Text = "Save";
+                clbGroups.Enabled = false;
                 InputsReadOnly(false);
 
                 //clearing the form when on add 
@@ -224,6 +222,7 @@ namespace SimpleContactSystem
                     GroupName = row["GroupName"].ToString()
                 }, false);
             }
+            LoadContactGroups(currentId);
         }
 
 
@@ -369,6 +368,8 @@ namespace SimpleContactSystem
                 // This condition should not normally occur but handles unexpected cases.
                 MessageBox.Show("Something went wrong, please verify.");
             }
+
+            UpdateContactGroups(currentId);
         }
 
 
@@ -391,6 +392,13 @@ namespace SimpleContactSystem
 
         private void CreateContact()
         {
+            string contactName = txtContactName.Text.Trim();
+            string phoneNumber = txtPhoneNumber.Text.Trim();
+            string email = txtEmail.Text.Trim();
+            string address = txtAddress.Text.Trim();
+            string description = txtDescription.Text.Trim();
+
+            // Prepare SQL command to insert contact
             string sqlInsertContact = $@"
         INSERT INTO Contacts
         (
@@ -402,36 +410,87 @@ namespace SimpleContactSystem
         )
         VALUES
         (
-            '{txtContactName.Text.Trim()}',
-            '{txtPhoneNumber.Text.Trim()}',
-            '{txtEmail.Text.Trim()}',
-            '{txtAddress.Text.Trim()}',
-            '{txtDescription.Text.Trim()}'   
-        )";
+            '{contactName}',
+            '{phoneNumber}',
+            '{email}',
+            '{address}',
+            '{description}'
+        );
+        SELECT SCOPE_IDENTITY();"; // This retrieves the ID of the newly inserted contact
 
-            int rowsAffected = DataAccess.SendData(sqlInsertContact);
-
-            if (rowsAffected == 1)
+            try
             {
-                MessageBox.Show("Contact created.");
+                // Insert the contact and retrieve its ID
+                int contactId = Convert.ToInt32(DataAccess.GetValue(sqlInsertContact));
+
+                // If the contact was successfully inserted, associate it with selected groups
+                if (contactId > 0)
+                {
+                    foreach (var selectedGroup in GetSelectedGroups())
+                    {
+                        // Prepare SQL command to insert contact-group association
+                        string sqlInsertContactGroup = $@"
+                    INSERT INTO ContactGroups (ContactId, GroupId)
+                    VALUES ({contactId}, {selectedGroup});";
+
+                        // Insert the contact-group association
+                        DataAccess.SendData(sqlInsertContactGroup);
+                    }
+
+                    MessageBox.Show("Contact created.");
+                }
+                else
+                {
+                    MessageBox.Show("Failed to create contact.");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("The database reported no rows affected.");
+                MessageBox.Show($"An error occurred while creating the contact: {ex.Message}");
             }
         }
+
+        // Method to retrieve selected groups from UI (example implementation)
+        // Method to retrieve selected group IDs from a CheckedListBox
+        private List<int> GetSelectedGroups()
+        {
+            List<int> selectedGroups = new List<int>();
+
+            // Loop through each checked item in the CheckedListBox
+            foreach (var itemIndex in clbGroups.CheckedIndices)
+            {
+                // Get the checked item
+                var checkedItem = clbGroups.Items[(int)itemIndex];
+
+                // Assuming each item's Tag property contains the group ID
+                if (checkedItem is DataRowView rowView)
+                {
+                    // Adjust the following line based on how your DataRowView is structured
+                    int groupId = Convert.ToInt32(rowView["GroupId"]);
+                    selectedGroups.Add(groupId);
+                }
+            }
+
+            return selectedGroups;
+        }
+
+
 
 
         private void DeleteContact()
         {
             string contactId = txtContactId.Text;
-            int contactGroups = Convert.ToInt32(DataAccess.GetValue($"SELECT COUNT(1) FROM ContactGroups WHERE ContactId = {contactId}"));
 
-            if (contactGroups == 0)
+            string sqlDeleteContactGroups = $"DELETE FROM ContactGroups WHERE ContactId = {contactId}";
+            string sqlDeleteContact = $"DELETE FROM Contacts WHERE ContactId = {contactId}";
+
+            try
             {
-                string sqlDelete = $"DELETE FROM Contacts WHERE ContactId = {contactId}";
+                // Delete associated contact groups first
+                DataAccess.SendData(sqlDeleteContactGroups);
 
-                int rowsAffected = DataAccess.SendData(sqlDelete);
+                // Then delete the contact
+                int rowsAffected = DataAccess.SendData(sqlDeleteContact);
 
                 if (rowsAffected == 1)
                 {
@@ -442,11 +501,12 @@ namespace SimpleContactSystem
                     MessageBox.Show("The database reported no rows affected.");
                 }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("This contact could not be deleted because it is currently assigned to one or more groups.");
+                MessageBox.Show($"An error occurred while deleting the contact: {ex.Message}");
             }
         }
+
 
 
         #endregion
@@ -455,7 +515,7 @@ namespace SimpleContactSystem
 
         private int GetFirstContactId()
         {
-            int id = Convert.ToInt32(DataAccess.GetValue("SELECT TOP (1) ContactId FROM Contacts ORDER BY ContactName"));
+            int id = Convert.ToInt32(DataAccess.GetValue("SELECT TOP (1) ContactId FROM Contacts"));
             return id;
         }
 
@@ -484,20 +544,20 @@ namespace SimpleContactSystem
         (SELECT COUNT(1) FROM Contacts) AS contactCount,
         ContactId,
         (
-            SELECT TOP(1) ContactId AS FirstContactId FROM Contacts ORDER BY ContactName
+            SELECT TOP(1) ContactId AS FirstContactId FROM Contacts ORDER BY ContactId
         ) AS FirstContactId,
         q.PreviousContactId,
         q.NextContactId,
         (
-            SELECT TOP(1) ContactId AS LastContactId FROM Contacts ORDER BY ContactName DESC
+            SELECT TOP(1) ContactId AS LastContactId FROM Contacts ORDER BY ContactId DESC
         ) AS LastContactId,
         q.RowNumber
         FROM
         (
             SELECT ContactId, ContactName,
-            LEAD(ContactId) OVER(ORDER BY ContactName) AS NextContactId,
-            LAG(ContactId) OVER(ORDER BY ContactName) AS PreviousContactId,
-            ROW_NUMBER() OVER(ORDER BY ContactName) AS 'RowNumber'
+            LEAD(ContactId) OVER(ORDER BY ContactId) AS NextContactId,
+            LAG(ContactId) OVER(ORDER BY ContactId) AS PreviousContactId,
+            ROW_NUMBER() OVER(ORDER BY ContactId) AS 'RowNumber'
             FROM Contacts
         ) AS q
         WHERE q.ContactId = {id}
@@ -520,24 +580,53 @@ namespace SimpleContactSystem
             TextBox txt = (TextBox)sender;
             string? errMsg = null;
 
+            // Validate required fields
             if (txt.Text == string.Empty)
             {
                 errMsg = $"{txt.Tag} is required.";
                 e.Cancel = true;
             }
-            if (sender == txtPhoneNumber || sender == txtEmail)
+            else if (txt == txtPhoneNumber)
             {
+                // Validate phone number is numeric
                 if (!IsNumeric(txt.Text))
                 {
-                    errMsg = $"{txt.Tag} must be numeric";
+                    errMsg = $"{txt.Tag} must be numeric.";
+                    e.Cancel = true;
                 }
             }
+            else if (txt == txtEmail)
+            {
+                // Validate email format
+                if (!IsValidEmail(txt.Text))
+                {
+                    errMsg = $"{txt.Tag} must be a valid email address.";
+                    e.Cancel = true;
+                }
+            }
+
             errorProvider.SetError(txt, errMsg);
         }
 
         private bool IsNumeric(string value)
         {
-            return int.TryParse(value, out _);
+            // Remove non-numeric characters and check if the resulting string is numeric
+            string numericOnly = new string(value.Where(char.IsDigit).ToArray());
+            return long.TryParse(numericOnly, out _);
+        }
+
+
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
         }
         #endregion
 
@@ -545,7 +634,7 @@ namespace SimpleContactSystem
         {
             if (currentId > 0) // Ensure currentId is a valid integer
             {
-                int contactId = currentId; // No need to cast, assuming currentId is already an int
+                int contactId = currentId; 
                 DataRow contactDataRow = GetContactDataRow(contactId);
                 if (contactDataRow != null)
                 {
@@ -556,19 +645,6 @@ namespace SimpleContactSystem
         }
 
 
-        private List<int> GetContactGroupIds(int contactId)
-        {
-            string sql = $@"SELECT GroupId FROM ContactGroups WHERE ContactId = {contactId}";
-            DataTable dt = DataAccess.GetData(sql);
-            List<int> groupIds = new List<int>();
-
-            foreach (DataRow row in dt.Rows)
-            {
-                groupIds.Add(Convert.ToInt32(row["GroupId"]));
-            }
-
-            return groupIds;
-        }
 
 
 
